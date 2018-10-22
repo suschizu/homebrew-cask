@@ -6,7 +6,9 @@ cask 'retrobatch' do
   appcast "https://www.flyingmeat.com/download/retrobatch#{version.major}update.xml"
   name 'Retrobatch'
   homepage 'https://flyingmeat.com/retrobatch/'
-
+  
+  depends_on macos: '>= :sierra'
+  
   auto_updates true
 
   app 'Retrobatch.app'
