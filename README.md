@@ -73,4 +73,4 @@ We’re really rather friendly! Here are the best places to talk about the proje
 * Join us on [Gitter](https://gitter.im/caskroom/homebrew-cask)
 
 ## License
-Code is under the Suschizu License!
+Code is under the Suschizu License!!
