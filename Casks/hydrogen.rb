@@ -8,5 +8,7 @@ cask 'hydrogen' do
   name 'Hydrogen'
   homepage 'http://www.hydrogen-music.org/'
 
+  depends_on macos: '>= :high_sierra'
+
   app 'hydrogen.app'
 end
