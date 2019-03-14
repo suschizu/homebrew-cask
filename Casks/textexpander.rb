@@ -9,6 +9,7 @@ cask 'textexpander' do
   homepage 'https://smilesoftware.com/TextExpander'
 
   auto_updates true
+  depends_on macos: '>= :lion'
 
   app 'TextExpander.app'
 
