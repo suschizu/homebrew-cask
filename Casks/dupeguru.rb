@@ -4,7 +4,7 @@ cask 'dupeguru' do
 
   # download.hardcoded.net was verified as official when first introduced to the cask
   url "https://download.hardcoded.net/dupeguru_osx_#{version.dots_to_underscores}.dmg"
-  appcast 'https://www.hardcoded.net/updates/dupeguru.appcast'
+  appcast 'https://github.com/arsenetar/dupeguru/releases.atom'
   name 'dupeGuru'
   homepage 'https://dupeguru.voltaicideas.net/'
 
