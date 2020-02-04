@@ -1,15 +1,15 @@
 cask 'zoomus' do
   version '4.6.17383.0119'
-  sha256 '13536a35e8d3813af40e406d340327a4797ff63a3622bd0a8a965f86ac68979b'
+  sha256 '625a9e4443c9401de29de7141e45f21c375888f34e0083e1bf0fb768b0dea377'
 
-  url "https://www.zoom.us/client/#{version}/zoomusInstaller.pkg"
-  appcast 'https://macupdater.net/cgi-bin/check_urls/check_url_redirect.cgi?url=https://zoom.us/client/latest/Zoom.pkg'
+  url "https://www.zoom.us/client/#{version}/ZoomInstallerIT.pkg"
+  appcast 'https://macupdater.net/cgi-bin/check_urls/check_url_redirect.cgi?url=https://zoom.us/client/latest/ZoomInstallerIT.pkg'
   name 'Zoom.us'
   homepage 'https://www.zoom.us/'
 
   auto_updates true
 
-  pkg 'zoomusInstaller.pkg'
+  pkg 'ZoomInstallerIT.pkg'
 
   postflight do
     set_ownership '~/Library/Application Support/zoom.us'
