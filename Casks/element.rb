@@ -1,15 +1,15 @@
-cask 'riot' do
+cask 'element' do
   version '1.6.8'
   sha256 '4a03fb655c33d525995af5874aedfa3b5b2277ebf986e89f08564de222125c3b'
 
-  url "https://packages.riot.im/desktop/install/macos/Riot-#{version}.dmg"
+  url "https://packages.riot.im/desktop/install/macos/Element%20(Riot)-#{version}.dmg"
   appcast 'https://github.com/vector-im/riot-desktop/releases.atom'
-  name 'Riot'
+  name 'Element (Riot)'
   homepage 'https://about.riot.im/'
 
   auto_updates true
 
-  app 'Riot.app'
+  app 'Element (Riot).app'
 
   zap trash: [
                '~/Library/Application Support/Riot',
